@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>小阶数学·应用题俱乐部</title>
+  
+  <!-- 内联manifest - 完整版 -->
+  <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22%E5%B0%8F%E9%98%B6%E6%95%B0%E5%AD%A6%E2%80%A2%E5%BA%94%E7%94%A8%E9%A2%98%E4%BF%B1%E4%B9%90%E9%83%A8%22%2C%22short_name%22%3A%22%E6%95%B0%E5%AD%A6%E4%BF%B1%E4%B9%90%E9%83%A8%22%2C%22description%22%3A%22%E5%B0%8F%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%BA%94%E7%94%A8%E9%A2%98%22%2C%22start_url%22%3A%22%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23ff9f4b%22%2C%22theme_color%22%3A%22%23ff6b6b%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ccircle%20cx%3D%2750%27%20cy%3D%2750%27%20r%3D%2748%27%20fill%3D%27%23ff9f4b%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%274%27%2F%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2770%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2733%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Ccircle%20cx%3D%2773%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Cpath%20d%3D%27M30%2065%20Q50%2080%2C70%2065%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%276%27%20fill%3D%27none%27%20stroke-linecap%3D%27round%27%2F%3E%3Ctext%20x%3D%2740%27%20y%3D%2730%27%20font-size%3D%2722%27%20fill%3D%27%23ff6b6b%27%20font-weight%3D%27bold%27%3E1%2B2%3C%2Ftext%3E%3C%2Fsvg%3E%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%2C%7B%22src%22%3A%22data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ccircle%20cx%3D%2750%27%20cy%3D%2750%27%20r%3D%2748%27%20fill%3D%27%23ff9f4b%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%274%27%2F%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2770%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2733%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Ccircle%20cx%3D%2773%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Cpath%20d%3D%27M30%2065%20Q50%2080%2C70%2065%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%276%27%20fill%3D%27none%27%20stroke-linecap%3D%27round%27%2F%3E%3Ctext%20x%3D%2740%27%20y%3D%2730%27%20font-size%3D%2722%27%20fill%3D%27%23ff6b6b%27%20font-weight%3D%27bold%27%3E1%2B2%3C%2Ftext%3E%3C%2Fsvg%3E%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%5D%7D">
+  
+  <!-- 苹果设备专用图标 -->
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ccircle%20cx%3D%2750%27%20cy%3D%2750%27%20r%3D%2748%27%20fill%3D%27%23ff9f4b%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%274%27%2F%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2770%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2733%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Ccircle%20cx%3D%2773%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Cpath%20d%3D%27M30%2065%20Q50%2080%2C70%2065%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%276%27%20fill%3D%27none%27%20stroke-linecap%3D%27round%27%2F%3E%3Ctext%20x%3D%2740%27%20y%3D%2730%27%20font-size%3D%2722%27%20fill%3D%27%23ff6b6b%27%20font-weight%3D%27bold%27%3E1%2B2%3C%2Ftext%3E%3C%2Fsvg%3E">
+  
+  <!-- 备用favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ccircle%20cx%3D%2750%27%20cy%3D%2750%27%20r%3D%2748%27%20fill%3D%27%23ff9f4b%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%274%27%2F%3E%3Ccircle%20cx%3D%2730%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2770%27%20cy%3D%2735%27%20r%3D%278%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%2733%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Ccircle%20cx%3D%2773%27%20cy%3D%2738%27%20r%3D%274%27%20fill%3D%27black%27%2F%3E%3Cpath%20d%3D%27M30%2065%20Q50%2080%2C70%2065%27%20stroke%3D%27%23ff6b6b%27%20stroke-width%3D%276%27%20fill%3D%27none%27%20stroke-linecap%3D%27round%27%2F%3E%3Ctext%20x%3D%2740%27%20y%3D%2730%27%20font-size%3D%2722%27%20fill%3D%27%23ff6b6b%27%20font-weight%3D%27bold%27%3E1%2B2%3C%2Ftext%3E%3C%2Fsvg%3E">
+  
+  <!-- PWA必要meta -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#ff6b6b">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      font-family: 'Comic Sans MS', 'Chalkboard SE', '幼圆', Yuanti SC, system-ui, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+    }
+    
+    .app-container {
+      max-width: 1000px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 60px 60px 40px 40px;
+      padding: 25px 20px;
+      box-shadow: 0 30px 40px rgba(0,0,0,0.2), 0 0 0 5px #ffd93d;
+      backdrop-filter: blur(10px);
+      position: relative;
+    }
+    
+    .app-container::before {
+      content: '🐼 🐨 🐻‍❄️';
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 30px;
+      background: #ffd93d;
+      padding: 5px 25px;
+      border-radius: 50px;
+      box-shadow: 0 5px 0 #ff9f4b;
+    }
+    
+    .title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 20px 0 15px 0;
+      background: #ffd93d;
+      padding: 15px 25px;
+      border-radius: 60px;
+      border: 4px solid #ff9f4b;
+    }
+    
+    .title-main {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .title-main span:first-child {
+      font-size: 3rem;
+      filter: drop-shadow(2px 4px 0 #ff6b6b);
+    }
+    
+    .title-main span:last-child {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #4a4a4a;
+      text-shadow: 3px 3px 0 #ff9f4b;
+    }
+    
+    .install-btn {
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 40px;
+      font-size: 1.2rem;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 6px 0 #b23b3b;
+      transition: 0.1s;
+      border: 3px solid white;
+      font-family: inherit;
+    }
+    
+    .install-btn:active {
+      transform: translateY(6px);
+      box-shadow: none;
+    }
+    
+    .install-btn.hidden {
+      display: none;
+    }
+    
+    .subtitle {
+      background: #9b87f5;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 40px;
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      border: 4px solid #6c5ce7;
+      box-shadow: 0 5px 0 #4a3f9e;
+    }
+    
+    .card {
+      background: #f8f9ff;
+      border-radius: 50px;
+      padding: 25px 20px;
+      margin: 20px 0;
+      border: 4px solid #a990fb;
+      box-shadow: 0 8px 0 #6c5ce7;
+    }
+    
+    .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .timer-card {
+      background: #2c3e50;
+      color: #ffd93d;
+      border-radius: 50px;
+      padding: 15px 30px;
+      box-shadow: 0 8px 0 #1a2632;
+      border: 4px solid #ff9f4b;
+    }
+    
+    .timer-display {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: 8px;
+      font-family: 'Courier New', monospace;
+      text-shadow: 0 0 10px #ffd93d;
+    }
+    
+    button {
+      background: #9b87f5;
+      border: none;
+      color: white;
+      font-weight: 800;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      box-shadow: 0 6px 0 #6c5ce7;
+      cursor: pointer;
+      border: 3px solid white;
+      transition: 0.1s;
+      font-family: inherit;
+    }
+    
+    button:active {
+      transform: translateY(6px);
+      box-shadow: none;
+    }
+    
+    button:disabled {
+      opacity: 0.5;
+      transform: none;
+      box-shadow: 0 6px 0 #6c5ce7;
+      pointer-events: none;
+    }
+    
+    .diff-pill {
+      display: flex;
+      background: white;
+      border-radius: 60px;
+      border: 4px solid #ff9f4b;
+      overflow: hidden;
+    }
+    
+    .diff-pill label {
+      padding: 12px 28px;
+      cursor: pointer;
+      font-size: 1.2rem;
+      font-weight: 700;
+      transition: 0.1s;
+    }
+    
+    input[type="radio"] { display: none; }
+    input[type="radio"]:checked + span { 
+      background: #ffd93d; 
+      color: #4a4a4a;
+      display: block;
+      padding: 12px 28px;
+      margin: -12px -28px;
+    }
+    
+    .ques-item {
+      background: #fff9e6;
+      border-radius: 40px;
+      padding: 20px;
+      margin-bottom: 15px;
+      border: 4px solid #ffd93d;
+      box-shadow: 0 5px 0 #ff9f4b;
+    }
+    
+    .ques-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .ques-text {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #4a4a4a;
+    }
+    
+    .meta-badge {
+      background: #9b87f5;
+      color: white;
+      border-radius: 40px;
+      padding: 8px 20px;
+      font-size: 1rem;
+      font-weight: 700;
+      border: 3px solid white;
+    }
+    
+    .answer-area {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+    
+    .ans-input {
+      width: 150px;
+      padding: 12px 20px;
+      border-radius: 50px;
+      border: 4px solid #ff9f4b;
+      font-size: 1.2rem;
+      text-align: center;
+      font-family: inherit;
+    }
+    
+    .result-badge {
+      font-weight: 800;
+      padding: 10px 25px;
+      border-radius: 40px;
+      font-size: 1.1rem;
+      border: 3px solid white;
+    }
+    
+    .correct-badge { background: #8bc34a; color: white; }
+    .wrong-badge { background: #ff6b6b; color: white; }
+    .pending-badge { background: #ffd93d; color: #4a4a4a; }
+    
+    .hint-section {
+      margin-top: 15px;
+      border-top: 2px dashed #ff9f4b;
+      padding-top: 15px;
+    }
+    
+    .child-hint {
+      background: #e3f2fd;
+      border-radius: 30px;
+      padding: 12px 18px;
+      font-size: 1.1rem;
+      border-left: 8px solid #2196f3;
+      color: #0d3c61;
+      margin-bottom: 10px;
+    }
+    
+    .parent-hint {
+      background: #fff3e0;
+      border-radius: 30px;
+      padding: 12px 18px;
+      font-size: 1rem;
+      border-left: 8px solid #ff9800;
+      color: #663c00;
+      margin-top: 10px;
+    }
+    
+    .parent-btn {
+      background: #ff9800;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 3px 0 #b26a00;
+      transition: 0.1s;
+      border: 2px solid white;
+    }
+    
+    .parent-btn:active {
+      transform: translateY(3px);
+      box-shadow: none;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    .history-panel {
+      background: #2c3e50;
+      color: #ffd93d;
+      border-radius: 40px;
+      padding: 20px;
+      font-size: 1rem;
+      max-height: 180px;
+      overflow-y: auto;
+      border: 4px solid #ff9f4b;
+    }
+    
+    .mistake-panel {
+      background: #fff0f0;
+      border: 6px dashed #ff6b6b;
+      border-radius: 50px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    
+    .mistake-item {
+      background: white;
+      border-radius: 30px;
+      padding: 12px 18px;
+      margin-bottom: 10px;
+      border: 2px solid #ff6b6b;
+    }
+    
+    .footer-actions {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    
+    hr {
+      border: 4px solid #ffd93d;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+    
+    .deco-animals {
+      display: flex;
+      justify-content: space-around;
+      margin: 10px 0;
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+<div class="app-container">
+  <div class="deco-animals">
+    <span>🐘</span> <span>🦒</span> <span>🦁</span> <span>🐯</span> <span>🐸</span>
+  </div>
+  
+  <div class="title-row">
+    <div class="title-main">
+      <span>🧮</span>
+      <span>数学应用题俱乐部</span>
+    </div>
+    <button class="install-btn" id="installBtn">
+      📲 安装到设备
+    </button>
+  </div>
+  
+  <div class="subtitle">
+    🌟 基础11类 · 🎯 奥数8类 · 📝 错题本 · 💡 双层提示
+  </div>
+
+  <div class="card">
+    <div class="flex-row">
+      <div class="diff-pill">
+        <label><input type="radio" name="diff" value="初级" checked><span>🐣 初级</span></label>
+        <label><input type="radio" name="diff" value="中级"><span>🦊 中级</span></label>
+        <label><input type="radio" name="diff" value="高级"><span>🦉 高级</span></label>
+      </div>
+      <button id="startBtn">🚀 开始20分钟挑战</button>
+    </div>
+    <div class="flex-row" style="margin-top: 25px;">
+      <div class="timer-card"><span class="timer-display" id="timer">20:00</span></div>
+      <button id="submitBtn" disabled>✅ 提交所有答案</button>
+    </div>
+  </div>
+
+  <div id="questionsContainer">
+    <div class="ques-item" style="text-align:center; padding:40px;">
+      🎮 点击"开始20分钟挑战"生成题目
+    </div>
+  </div>
+
+  <hr>
+  <div style="display: flex; justify-content: space-between; align-items: center; margin: 20px 0;">
+    <h2 style="color:#4a4a4a; font-size:2rem;">📋 练习记录</h2>
+    <button id="clearMistakesBtn" style="background:#ff6b6b; box-shadow:0 6px 0 #b23b3b;">🗑️ 清空错题</button>
+  </div>
+  <div class="history-panel" id="historyLog">暂无练习记录</div>
+  <div class="mistake-panel" id="mistakeContainer">📕 还没有错题，继续加油！</div>
+
+  <div class="footer-actions">
+    <button id="exportBtn" style="background:#6c5ce7;">📎 导出错题</button>
+    <button id="demoBtn" style="background:#ff9f4b;">🧪 添加示例错题</button>
+    <span style="flex:1; text-align:right; font-size:1rem; color:#4a4a4a;">🐼 快乐学数学 v4.4</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  // ========== 基础题库模板 ==========
+  const BASE_TEMPLATES = [
+    {
+      type: "归一",
+      generate: () => {
+        const pencils = Math.floor(Math.random() * 8) + 3;
+        const price = (Math.floor(Math.random() * 15) + 10) * pencils;
+        const unitPrice = price / pencils;
+        const buyNum = Math.floor(Math.random() * 10) + 5;
+        return {
+          text: `🐧 买${pencils}支铅笔${price}元，买${buyNum}支需多少元？`,
+          ans: unitPrice * buyNum,
+          childHint: `🤔 先想想：1支铅笔多少钱？然后再算${buyNum}支的钱。`,
+          parentHint: `先求1支价格：${price}÷${pencils}=${unitPrice}元，再乘${buyNum}得${unitPrice * buyNum}元`
+        };
+      }
+    },
+    {
+      type: "归总",
+      generate: () => {
+        const days = Math.floor(Math.random() * 7) + 6;
+        const perDay = Math.floor(Math.random() * 6) + 8;
+        const total = days * perDay;
+        const newPerDay = Math.floor(Math.random() * 8) + 10;
+        return {
+          text: `🦊 修路每天${perDay}米，${days}天完。每天${newPerDay}米，需几天？`,
+          ans: Math.ceil(total / newPerDay),
+          childHint: `🤔 这条路一共多长？用总长度除以新的每天长度。`,
+          parentHint: `全长${total}米，${total}÷${newPerDay}=${Math.ceil(total / newPerDay)}天`
+        };
+      }
+    },
+    {
+      type: "和差",
+      generate: () => {
+        const sum = Math.floor(Math.random() * 30) + 15;
+        const diff = Math.floor(Math.random() * 8) + 2;
+        const small = (sum - diff) / 2;
+        return {
+          text: `🐼 小红和小明共${sum}颗糖，小红比小明多${diff}颗，小明有几颗？`,
+          ans: small,
+          childHint: `🤔 如果两人一样多，总数会是多少？多的那部分怎么处理？`,
+          parentHint: `小数=(和-差)÷2 = (${sum}-${diff})÷2=${small}`
+        };
+      }
+    },
+    {
+      type: "和倍",
+      generate: () => {
+        const sum = Math.floor(Math.random() * 150) + 50;
+        const multiple = Math.floor(Math.random() * 4) + 2;
+        const small = sum / (multiple + 1);
+        return {
+          text: `🦁 故事书+科技书=${sum}本，故事书是科技书${multiple}倍，科技书几本？`,
+          ans: small,
+          childHint: `🤔 科技书是1份，故事书是几份？总共几份？`,
+          parentHint: `科技书1份，故事书${multiple}份，共${multiple+1}份=${sum}，1份=${small}`
+        };
+      }
+    },
+    {
+      type: "差倍",
+      generate: () => {
+        const diff = Math.floor(Math.random() * 20) + 20;
+        const multiple = Math.floor(Math.random() * 3) + 2;
+        const small = diff / (multiple - 1);
+        return {
+          text: `🐨 妈妈年龄是小红的${multiple}倍，比小红大${diff}岁，小红几岁？`,
+          ans: small,
+          childHint: `🤔 妈妈比小红大的部分，相当于小红的几倍？`,
+          parentHint: `差倍: ${diff}÷(${multiple}-1)=${small}`
+        };
+      }
+    },
+    {
+      type: "行程",
+      generate: () => {
+        const distance = Math.floor(Math.random() * 200) + 100;
+        const speed = Math.floor(Math.random() * 30) + 40;
+        return {
+          text: `🐘 甲乙相距${distance}km，速度${speed}km/h，几小时到达？`,
+          ans: Math.round(distance / speed * 10) / 10,
+          childHint: `🤔 时间 = 路程 ÷ 速度，你会算吗？`,
+          parentHint: `时间=路程÷速度=${distance}÷${speed}=${Math.round(distance / speed * 10) / 10}小时`
+        };
+      }
+    },
+    {
+      type: "植树",
+      generate: () => {
+        const interval = Math.floor(Math.random() * 8) + 5;
+        const segments = Math.floor(Math.random() * 10) + 5;
+        const length = interval * segments;
+        return {
+          text: `🦒 小路${length}米，每隔${interval}米栽树(两端都栽)，需多少棵？`,
+          ans: segments + 1,
+          childHint: `🤔 把路分成${interval}米一段，可以分成几段？两端都栽树，棵数比段数多几？`,
+          parentHint: `段数=${length}÷${interval}=${segments}段，两端都栽：棵数=段数+1=${segments + 1}棵`
+        };
+      }
+    },
+    {
+      type: "年龄",
+      generate: () => {
+        const son = Math.floor(Math.random() * 5) + 5;
+        let father, multiple, years;
+        do {
+          multiple = Math.floor(Math.random() * 2) + 2;
+          const baseDiff = (Math.floor(Math.random() * 5) + 3) * (multiple - 1);
+          father = son + baseDiff;
+          years = (father - son * multiple) / (multiple - 1);
+        } while (years <= 0 || years > 15 || Math.floor(years) !== years);
+        return {
+          text: `🐸 父亲${father}，儿子${son}，几年后父亲是儿子${multiple}倍？`,
+          ans: years,
+          childHint: `🤔 年龄差永远不变，几年后儿子多少岁时父亲是他的${multiple}倍？`,
+          parentHint: `年龄差${father - son}不变，儿子${son + years}岁时，父亲${father + years}岁，${years}年后`
+        };
+      }
+    },
+    {
+      type: "鸡兔同笼",
+      generate: () => {
+        const heads = Math.floor(Math.random() * 15) + 5;
+        const rabbits = Math.floor(Math.random() * 8) + 2;
+        const chickens = heads - rabbits;
+        const legs = rabbits * 4 + chickens * 2;
+        return {
+          text: `🐝 鸡兔共${heads}只，腿${legs}条，兔几只？`,
+          ans: rabbits,
+          childHint: `🤔 假设全是鸡有多少条腿？比实际少多少？每换一只兔多几条腿？`,
+          parentHint: `假设全是鸡:${heads * 2}腿，多${legs - heads * 2}腿换兔，兔=${(legs - heads * 2) / 2}`
+        };
+      }
+    },
+    {
+      type: "盈亏",
+      generate: () => {
+        const people = Math.floor(Math.random() * 8) + 4;
+        const per1 = Math.floor(Math.random() * 3) + 2;
+        const per2 = per1 + 1;
+        const total1 = people * per1;
+        const盈 = Math.floor(Math.random() * 8) + 2;
+        const亏 = total1 + 盈 - people * per2;
+        return {
+          text: `🦋 每人分${per1}个多${盈}个，每人${per2}个少${亏}个，小朋友几人？`,
+          ans: people,
+          childHint: `🤔 两次分配相差几个？每人多分几个？人数怎么求？`,
+          parentHint: `(盈+亏)÷分配差=(${盈}+${亏})÷(${per2}-${per1})=${people}`
+        };
+      }
+    },
+    {
+      type: "分数",
+      generate: () => {
+        const total = Math.floor(Math.random() * 100) + 50;
+        const numerator = Math.floor(Math.random() * 3) + 1;
+        const denominator = Math.floor(Math.random() * 3) + 4;
+        return {
+          text: `🐞 路全长${total}米，修了${numerator}/${denominator}，修了多少米？`,
+          ans: total * numerator / denominator,
+          childHint: `🤔 求一个数的几分之几是多少，用什么方法？`,
+          parentHint: `${total} × ${numerator}/${denominator} = ${total * numerator / denominator}`
+        };
+      }
+    }
+  ];
+
+  // ========== 奥数题库模板 ==========
+  const OLYMPIC_TEMPLATES = [
+    {
+      type: "周期问题",
+      generate: () => {
+        const colors = [["红","黄","蓝","绿"], ["红","黄","蓝"], ["红","蓝","绿"]];
+        const selected = colors[Math.floor(Math.random() * colors.length)];
+        const index = Math.floor(Math.random() * 30) + 10;
+        const remainder = index % selected.length;
+        const color = selected[remainder === 0 ? selected.length - 1 : remainder - 1];
+        return {
+          text: `🎨 彩灯${selected.join('')}循环，第${index}盏颜色？(写汉字: ${selected.join('/')})`,
+          ans: color,
+          childHint: `🤔 几个颜色一组循环？第${index}个是第几组的第几个？`,
+          parentHint: `周期${selected.length}，${index}÷${selected.length}余${index % selected.length} → 第${index % selected.length || selected.length}个: ${color}`
+        };
+      }
+    },
+    {
+      type: "数列",
+      generate: () => {
+        const start = Math.floor(Math.random() * 5) + 1;
+        const step = Math.floor(Math.random() * 4) + 2;
+        const numbers = [];
+        for(let i=0; i<5; i++) {
+          numbers.push(start + i * step);
+        }
+        const missingIndex = Math.floor(Math.random() * 3) + 1;
+        const answer = numbers[missingIndex];
+        numbers[missingIndex] = "?";
+        return {
+          text: `🔢 ${numbers.join(',')} 缺少的数字是？`,
+          ans: answer,
+          childHint: `🤔 观察相邻两个数的差，找出规律。`,
+          parentHint: `等差数列，公差${step}，?=${answer}`
+        };
+      }
+    },
+    {
+      type: "乘法原理",
+      generate: () => {
+        const a2b = Math.floor(Math.random() * 4) + 2;
+        const b2c = Math.floor(Math.random() * 4) + 3;
+        return {
+          text: `🛣️ A到B有${a2b}条路，B到C有${b2c}条，A经B到C共几种走法？`,
+          ans: a2b * b2c,
+          childHint: `🤔 先选A到B的路，再选B到C的路，一共多少种组合？`,
+          parentHint: `分步计数 ${a2b}×${b2c}=${a2b * b2c}`
+        };
+      }
+    },
+    {
+      type: "最优化问题",
+      generate: () => {
+        return {
+          text: `🍳 烙饼每次放2张，每面3分钟，3张饼至少几分钟？`,
+          ans: 9,
+          childHint: `🤔 怎样让锅不空着？可以交替烙饼。`,
+          parentHint: `交替法: 3张共需3×3=9分钟`
+        };
+      }
+    },
+    {
+      type: "列方程",
+      generate: () => {
+        const x = Math.floor(Math.random() * 6) + 2;
+        const a = Math.floor(Math.random() * 3) + 2;
+        const b = Math.floor(Math.random() * 6) + 2;
+        return {
+          text: `❓ 某数的${a}倍加${b}等于它的${a*2}倍减${b}，求这个数。`,
+          ans: x,
+          childHint: `🤔 设这个数为x，列出方程，两边同时加减。`,
+          parentHint: `${a}x+${b}=${a*2}x-${b} → ${a*2}x-${a}x=${b}+${b} → ${a}x=${b*2} → x=${x}`
+        };
+      }
+    },
+    {
+      type: "逻辑推理",
+      generate: () => {
+        const subjects = ["语文", "数学", "音乐"];
+        const shuffled = [...subjects];
+        for(let i=shuffled.length-1; i>0; i--) {
+          const j = Math.floor(Math.random() * (i+1));
+          [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return {
+          text: `🧩 小红不喜欢${shuffled[0]}，小丽喜欢${shuffled[2]}，小芳不是不喜欢${shuffled[1]}。小红喜欢什么？(写汉字: ${subjects.join('/')})`,
+          ans: shuffled[1],
+          childHint: `🤔 用表格法，先确定小丽的，再排除小红的。`,
+          parentHint: `小丽=${shuffled[2]}，小红≠${shuffled[0]}，则小红=${shuffled[1]}`
+        };
+      }
+    },
+    {
+      type: "容斥原理",
+      generate: () => {
+        const a = Math.floor(Math.random() * 8) + 12;
+        const b = Math.floor(Math.random() * 8) + 15;
+        const both = Math.floor(Math.random() * 6) + 4;
+        const total = a + b - both;
+        return {
+          text: `📊 作文班${a}人，奥数班${b}人，共${total}人，两班都参加几人？`,
+          ans: both,
+          childHint: `🤔 总人数 = 作文班 + 奥数班 - 都参加的人数。`,
+          parentHint: `${a}+${b}-${total}=${both}`
+        };
+      }
+    },
+    {
+      type: "巧求周长",
+      generate: () => {
+        const length = Math.floor(Math.random() * 8) + 6;
+        const width = Math.floor(Math.random() * 5) + 4;
+        const hole = Math.floor(Math.random() * 2) + 1;
+        const original = (length + width) * 2;
+        return {
+          text: `📏 长${length}宽${width}长方形挖掉边长${hole}正方形(内部)，剩余周长？(单位cm)`,
+          ans: original + hole * 2,
+          childHint: `🤔 挖掉一个正方形后，周长会增加还是减少？增加了多少？`,
+          parentHint: `原周长${original}，凹进增加${hole*2}，总${original + hole*2}`
+        };
+      }
+    },
+    {
+      type: "周期",
+      generate: () => {
+        const colors = ["红", "黄", "蓝"];
+        const index = Math.floor(Math.random() * 30) + 15;
+        const remainder = index % 3;
+        const color = colors[remainder === 0 ? 2 : remainder - 1];
+        return {
+          text: `🎨 ${colors.join('')}重复，第${index}盏灯颜色？(写汉字: 红/黄/蓝)`,
+          ans: color,
+          childHint: `🤔 3个一组循环，看第${index}个是第几组的第几个。`,
+          parentHint: `${index}÷3余${index % 3}，第${index % 3 || 3}个: ${color}`
+        };
+      }
+    }
+  ];
+
+  function generateQuestionsFromTemplates(templates, count) {
+    const shuffled = [...templates];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled.slice(0, count).map(template => {
+      const generated = template.generate();
+      return {
+        ...generated,
+        mainCat: BASE_TEMPLATES.includes(template) ? "基础题" : "奥数题",
+        subCat: template.type,
+        userAnswer: null,
+        isCorrect: null
+      };
+    });
+  }
+
+  window.toggleParentHint = function(idx) {
+    const hintDiv = document.getElementById(`parentHint_${idx}`);
+    if (hintDiv) hintDiv.classList.toggle('hidden');
+  };
+
+  const app = {
+    currentQuestions: [],
+    timerInterval: null,
+    secondsLeft: 1200,
+    active: false,
+    difficulty: '初级',
+    mistakeList: [],
+    deferredPrompt: null,
+    submitted: false,
+
+    init: function() {
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        this.deferredPrompt = e;
+        document.getElementById('installBtn').classList.remove('hidden');
+      });
+
+      document.getElementById('installBtn').addEventListener('click', () => {
+        if (!this.deferredPrompt) {
+          alert('请使用浏览器菜单中的「安装」或「添加到主屏幕」功能');
+          return;
+        }
+        this.deferredPrompt.prompt();
+        this.deferredPrompt.userChoice.then(() => {
+          this.deferredPrompt = null;
+          document.getElementById('installBtn').style.display = 'none';
+        });
+      });
+
+      document.getElementById('startBtn').addEventListener('click', () => this.startNew());
+      document.getElementById('submitBtn').addEventListener('click', () => this.submitAll());
+      document.getElementById('clearMistakesBtn').addEventListener('click', () => this.clearMistakes());
+      document.getElementById('exportBtn').addEventListener('click', () => this.exportMistakes());
+      document.getElementById('demoBtn').addEventListener('click', () => this.addDemoMistake());
+
+      document.querySelectorAll('input[name="diff"]').forEach(r => {
+        r.addEventListener('change', (e) => { this.difficulty = e.target.value; });
+      });
+
+      this.loadMistakes();
+    },
+
+    startNew: function() {
+      if(this.timerInterval) clearInterval(this.timerInterval);
+      this.secondsLeft = 1200;
+      this.active = true;
+      this.submitted = false;
+      this.updateTimer();
+      this.generatePaper();
+      this.timerInterval = setInterval(() => this.tick(), 1000);
+      document.getElementById('submitBtn').disabled = false;
+      document.getElementById('startBtn').disabled = true;
+      this.addLog(`▶ 开始 ${this.difficulty} 难度练习`);
+    },
+
+    tick: function() {
+      if(!this.active) return;
+      this.secondsLeft--;
+      this.updateTimer();
+      if(this.secondsLeft <= 0) {
+        this.secondsLeft = 0;
+        this.updateTimer();
+        this.active = false;
+        clearInterval(this.timerInterval);
+        document.getElementById('startBtn').disabled = false;
+        document.getElementById('submitBtn').disabled = true;
+        this.addLog("⌛ 时间到，练习结束");
+      }
+    },
+
+    updateTimer: function() {
+      const m = Math.floor(this.secondsLeft / 60);
+      const s = this.secondsLeft % 60;
+      document.getElementById('timer').innerText = `${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+    },
+
+    generatePaper: function() {
+      const totalQuestions = 6;
+      if (this.difficulty === '初级') {
+        this.currentQuestions = generateQuestionsFromTemplates(BASE_TEMPLATES, totalQuestions);
+      } else if (this.difficulty === '高级') {
+        this.currentQuestions = generateQuestionsFromTemplates(OLYMPIC_TEMPLATES, totalQuestions);
+      } else {
+        const baseQuestions = generateQuestionsFromTemplates(BASE_TEMPLATES, 4);
+        const olympicQuestions = generateQuestionsFromTemplates(OLYMPIC_TEMPLATES, 2);
+        this.currentQuestions = [...baseQuestions, ...olympicQuestions];
+        for (let i = this.currentQuestions.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [this.currentQuestions[i], this.currentQuestions[j]] = [this.currentQuestions[j], this.currentQuestions[i]];
+        }
+      }
+      this.renderQuestions();
+    },
+
+    renderQuestions: function() {
+      const container = document.getElementById('questionsContainer');
+      let html = '';
+      this.currentQuestions.forEach((q, idx) => {
+        let statusClass = 'pending-badge', statusText = '⏳ 待批';
+        if(q.isCorrect === true) { statusClass = 'correct-badge'; statusText = '✅ 正确'; }
+        else if(q.isCorrect === false) { statusClass = 'wrong-badge'; statusText = '❌ 错误'; }
+
+        const inputDisabled = (!this.active && this.secondsLeft <= 0) || this.submitted ? 'disabled' : '';
+
+        html += `<div class="ques-item">
+          <div class="ques-header">
+            <span class="ques-text">${idx+1}. ${q.text}</span>
+            <span class="meta-badge">${q.mainCat} · ${q.subCat}</span>
+          </div>
+          <div class="answer-area">
+            <input class="ans-input" type="text" id="ans_${idx}" placeholder="答案" value="${q.userAnswer||''}" ${inputDisabled}>
+            <span class="result-badge ${statusClass}">${statusText}</span>
+          </div>
+          ${q.isCorrect !== null ? `
+          <div class="hint-section">
+            <div class="child-hint">${q.childHint}</div>
+            <button class="parent-btn" onclick="toggleParentHint(${idx})">🔍 家长查看解析</button>
+            <div class="parent-hint hidden" id="parentHint_${idx}">📝 ${q.parentHint}</div>
+          </div>
+          ` : ''}
+        </div>`;
+      });
+      container.innerHTML = html;
+    },
+
+    submitAll: function() {
+      this.currentQuestions.forEach((q, idx) => {
+        const input = document.getElementById(`ans_${idx}`);
+        if(input) q.userAnswer = input.value.trim();
+      });
+
+      let correct = 0;
+      this.currentQuestions.forEach(q => {
+        let right = false;
+        if(typeof q.ans === 'number') {
+          right = Math.abs(parseFloat(q.userAnswer) - q.ans) < 0.01;
+        } else {
+          right = q.userAnswer === q.ans;
+        }
+        q.isCorrect = right;
+        if(right) correct++;
+        else if(q.userAnswer) this.addMistake(q);
+      });
+      
+      const percent = ((correct/this.currentQuestions.length)*100).toFixed(1);
+      this.addLog(`📊 提交答案 - 正确率: ${correct}/${this.currentQuestions.length} (${percent}%)`);
+      
+      if(this.timerInterval) {
+        clearInterval(this.timerInterval);
+        this.timerInterval = null;
+      }
+      this.active = false;
+      this.submitted = true;
+      document.getElementById('submitBtn').disabled = true;
+      document.getElementById('startBtn').disabled = false;
+      this.renderQuestions();
+    },
+
+    addMistake: function(q) {
+      const exists = this.mistakeList.some(m => m.text === q.text && m.correctAns === q.ans);
+      if (!exists) {
+        this.mistakeList.unshift({
+          text: q.text,
+          correctAns: q.ans,
+          mainCat: q.mainCat,
+          subCat: q.subCat,
+          childHint: q.childHint,
+          parentHint: q.parentHint,
+          date: new Date().toLocaleTimeString()
+        });
+        if(this.mistakeList.length > 20) this.mistakeList.pop();
+        this.saveMistakes();
+        this.updateMistakeUI();
+      }
+    },
+
+    updateMistakeUI: function() {
+      const div = document.getElementById('mistakeContainer');
+      if(!this.mistakeList.length) {
+        div.innerHTML = '📕 还没有错题，继续加油！';
+        return;
+      }
+      let html = '<strong>📕 错题本 (最近5条)</strong>';
+      this.mistakeList.slice(0,5).forEach(m => {
+        html += `<div class="mistake-item">
+          <div><b>${m.text}</b> 正确答案: ${m.correctAns} [${m.subCat}]</div>
+          <div class="child-hint" style="margin-top:8px;">🤔 ${m.childHint}</div>
+          <div class="parent-hint" style="margin-top:5px;">📝 ${m.parentHint}</div>
+          <div style="font-size:0.8rem; color:#999; margin-top:5px;">${m.date}</div>
+        </div>`;
+      });
+      div.innerHTML = html;
+    },
+
+    addLog: function(msg) {
+      const logDiv = document.getElementById('historyLog');
+      const entry = document.createElement('div');
+      entry.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+      logDiv.prepend(entry);
+      if(logDiv.children.length > 8) logDiv.removeChild(logDiv.lastChild);
+    },
+
+    clearMistakes: function() {
+      this.mistakeList = [];
+      this.saveMistakes();
+      this.updateMistakeUI();
+      this.addLog('🗑️ 清空错题本');
+    },
+
+    exportMistakes: function() {
+      alert(JSON.stringify(this.mistakeList, null, 2));
+    },
+
+    addDemoMistake: function() {
+      this.addMistake({
+        text: "3×?+2=11",
+        ans: 3,
+        mainCat: "基础题",
+        subCat: "方程入门",
+        childHint: "🤔 先想3×?等于多少，再算?是多少。",
+        parentHint: "3x+2=11 → 3x=9 → x=3"
+      });
+    },
+
+    saveMistakes: function() {
+      localStorage.setItem('mathMistakes', JSON.stringify(this.mistakeList));
+    },
+
+    loadMistakes: function() {
+      const data = localStorage.getItem('mathMistakes');
+      if(data) this.mistakeList = JSON.parse(data);
+      this.updateMistakeUI();
+    }
+  };
+
+  window.onload = () => app.init();
+})();
+</script>
+</body>
+</html>
